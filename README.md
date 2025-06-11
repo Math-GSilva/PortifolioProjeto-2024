@@ -23,7 +23,7 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
 
 ## 2. Descrição do Projeto
 
-- **Tema do Projeto**: Desenvolvimento de um sistema para artistas independentes, permitindo a publicação de suas artes organizadas por categorias e interação com o público.
+- **Tema do Projeto**: Desenvolvimento de uma plataforma online para artistas independentes publicarem e organizarem suas obras por categorias. O sistema funcionará como uma vitrine digital, permitindo que o público explore as artes e interaja com os artistas por meio de curtidas, comentários e seguidores. A proposta é valorizar a arte independente e facilitar sua divulgação.
 - **Problemas a Resolver**:
   - Dificuldade de artistas independentes em obter visibilidade.
   - Falta de plataformas dedicadas à exposição de arte com boa categorização.
