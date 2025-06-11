@@ -58,7 +58,7 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
 - **Visão Inicial da Arquitetura**: O sistema será dividido entre frontend, backend e banco de dados.
 - **Padrões de Arquitetura**: Arquitetura baseada em serviços (MVC) para melhor organização do código.
 - **Modelo C4**:
-![Modelo C4](imgs/c4.png)
+![Modelo C4](imgs/c4Model.png)
 - **Use Cases**:
 ![Casos de Uso](imgs/UseCases.png)
   
