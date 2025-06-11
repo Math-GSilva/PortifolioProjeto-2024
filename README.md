@@ -40,7 +40,7 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
   - RF01: Cadastro de usuários (artistas e apreciadores).
   - RF02: Publicação de artes por categoria.
   - RF03: Interação entre usuários (curtidas e comentários).
-  - RF04: Perfis personalizados para artistas.
+  - RF04: Criação de perfis personalizados para artistas.
   - RF05: Sistema de recomendação de artes baseado em categorias.
   - RF06: Moderação de conteúdo para evitar publicações inadequadas.
   - RF07: Busca avançada por artistas.
