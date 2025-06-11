@@ -13,13 +13,13 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
 
 ## 1. Introdução
 
-- **Contexto**: A vida de um artista independente pode ser desafiadora, especialmente quando se trata de obter visibilidade e alcançar um público maior. O acesso a plataformas dedicadas para exposição de arte pode ser limitado ou não atender às necessidades específicas dos artistas.
-- **Justificativa**: Este projeto visa oferecer um espaço para artistas independentes divulgarem suas obras, permitindo melhor organização e categorização para maior alcance e interação com o público.
+- **Contexto**: A trajetória de um artista independente é repleta de desafios, especialmente quando se trata de conquistar visibilidade e construir uma base sólida de admiradores. Muitas plataformas disponíveis hoje não foram pensadas para atender às necessidades específicas desse público, oferecendo pouco espaço para personalização, organização ou alcance. Com isso, talentos promissores acabam limitados a redes genéricas e superlotadas, onde é difícil se destacar.
+- **Justificativa**: Este projeto tem como objetivo preencher essa lacuna, criando uma plataforma digital dedicada à valorização da arte independente. A proposta é oferecer um espaço onde artistas possam divulgar suas obras de forma organizada e acessível, com categorização eficiente e mecanismos que estimulem a interação com o público. Ao centralizar essas funcionalidades em um único ambiente, o sistema pretende ampliar o alcance das criações artísticas, fortalecer a comunidade criativa e facilitar conexões significativas entre artistas e apreciadores.
 - **Objetivos**:
-  - Criar um sistema web para publicação e gerenciamento de artes.
-  - Permitir que usuários interajam com as artes postadas.
-  - Implementar uma interface responsiva e intuitiva.
-  - Oferecer um sistema seguro e escalável para armazenamento e acesso aos dados.
+  - Criar um sistema web que permita a publicação, categorização e gerenciamento de obras de arte por artistas independentes.
+  - Permitir que usuários (artistas e apreciadores) interajam com as publicações por meio de curtidas, comentários e recomendações.
+  - Desenvolver uma interface responsiva, intuitiva e agradável para diferentes dispositivos e perfis de usuários.
+  - Implementar um sistema seguro, confiável e escalável para o armazenamento e acesso aos dados das obras e interações.
 
 ## 2. Descrição do Projeto
 
@@ -59,6 +59,8 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
 - **Padrões de Arquitetura**: Arquitetura baseada em serviços (MVC) para melhor organização do código.
 - **Modelo C4**:
 ![Modelo C4](imgs/c4.png)
+- **Use Cases**:
+![Casos de Uso](imgs/UseCases.png)
   
 ### 3.3. Stack Tecnológica
 
