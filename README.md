@@ -59,11 +59,11 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
 - **Padrões de Arquitetura**: Arquitetura baseada em serviços (MVC) para melhor organização do código.
 - **Diagrama de Contexto**:
   
-![Modelo C4](imgs/c4Model.png)
+![Diagrama de Contexto](imgs/c4Model.png)
 
 - **Diagrama de Componentes**:
   
-![Modelo C4](imgs/componentsDiagram.png)
+![Diagrama de Componentes](imgs/componentsDiagram.png)
 - **Casos de Uso**:
   
 ![Casos de Uso](imgs/UseCases.png)
