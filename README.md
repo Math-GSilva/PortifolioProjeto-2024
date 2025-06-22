@@ -66,7 +66,9 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
 ![Diagrama de Componentes](imgs/componentsDiagram.png)
 - **Casos de Uso**:
   
-![Casos de Uso](imgs/UseCases.png)
+![Casos de Uso](imgs/artista.png)
+![Casos de Uso](imgs/apreciador.png)
+![Casos de Uso](imgs/moderador.png)
   
 ### 3.3. Stack Tecnológica
 
