@@ -37,20 +37,20 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
 ### 3.1. Requisitos de Software
 
 - **Requisitos Funcionais (RF):**
-  - RF01: Cadastro de usuários (artistas e apreciadores).
-  - RF02: Publicação de artes por categoria.
-  - RF03: Interação entre usuários (curtidas e comentários).
-  - RF04: Criação de perfis personalizados para artistas.
-  - RF05: Sistema de recomendação de artes baseado em categorias.
-  - RF06: Moderação de conteúdo para evitar publicações inadequadas.
-  - RF07: Busca avançada por artistas.
+  - RF001: O sistema deve permitir o cadastro de usuários como Artista ou Comum.
+  - RF002: O sistema deve permitir ao Artista a publicação de artes por categoria.
+  - RF003: O sistema deve permitir curtidas e comentários em artes por usuários logados.
+  - RF004: O sistema deve permitir ao Artista a criação e edição de perfis personalizados.
+  - RF005: O sistema deve exibir recomendações de artes baseadas nas interações do usuário.
+  - RF006: O sistema deve permitir ao Administrador a moderação de conteúdo inadequado.
+  - RF007: O sistema deve permitir a busca avançada por artistas (nome, estilo, categoria).
   
 - **Requisitos Não Funcionais (RNF):**
-  - RNF01: Interface responsiva.
-  - RNF02: Autenticação via JWT.
-  - RNF03: Armazenamento otimizado de imagens.
-  - RNF04: Sistema escalável para suportar crescimento da base de usuários.
-  - RNF05: Tempo de resposta ágil para as requisições.
+  - RNF001 (Usabilidade/Design): A interface deve ser responsiva para diferentes dispositivos.
+  - RNF002 (Segurança): A autenticação do usuário deve ser feita via JWT (JSON Web Token).
+  - RNF003 (Desempenho/Armazenamento): O sistema deve ter armazenamento otimizado de imagens para acesso rápido e eficiente.
+  - RNF004 (Escalabilidade): O sistema deve ser escalável para suportar o crescimento da base de usuários.
+  - RNF005 (Desempenho): O sistema deve ter tempo de resposta ágil para todas as requisições.
 
 ### 3.2. Considerações de Design
 
