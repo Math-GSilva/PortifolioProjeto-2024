@@ -9,25 +9,26 @@
 
 # Resumo
 
-O presente documento descreve o desenvolvimento de um sistema voltado para artistas independentes, permitindo a publicação de artes organizadas por tipo, facilitando a visibilidade e interação com o público. O sistema busca oferecer uma plataforma intuitiva para que artistas possam divulgar seus trabalhos e obter reconhecimento. O documento detalha a justificativa do projeto, requisitos, arquitetura, escolha da stack tecnológica, considerações de segurança e os próximos passos para sua implementação.
+Desenvolvimento de um sistema voltado para artistas independentes, permitindo a publicação de artes organizadas por tipo, facilitando a visibilidade e interação com o público. O sistema busca oferecer uma plataforma intuitiva para que artistas possam divulgar seus trabalhos e obter reconhecimento. A seguir, está detalhada a justificativa do projeto, os requisitos, a arquitetura, escolha da stack tecnológica, considerações de segurança e os próximos passos para sua implementação.
 
 ## 1. Introdução
 
-- **Contexto**: A trajetória de um artista independente é repleta de desafios, especialmente quando se trata de conquistar visibilidade e construir uma base sólida de admiradores. Muitas plataformas disponíveis hoje não foram pensadas para atender às necessidades específicas desse público, oferecendo pouco espaço para personalização, organização ou alcance. Com isso, talentos promissores acabam limitados a redes genéricas e superlotadas, onde é difícil se destacar.
-- **Justificativa**: Este projeto tem como objetivo preencher essa lacuna, criando uma plataforma digital dedicada à valorização da arte independente. A proposta é oferecer um espaço onde artistas possam divulgar suas obras de forma organizada e acessível, com categorização eficiente e mecanismos que estimulem a interação com o público. Ao centralizar essas funcionalidades em um único ambiente, o sistema pretende ampliar o alcance das criações artísticas, fortalecer a comunidade criativa e facilitar conexões significativas entre artistas e apreciadores.
+- **Contexto**: A trajetória de um artista independente é repleta de desafios, especialmente quando se trata de conquistar visibilidade e construir uma base sólida de admiradores. Muitas plataformas disponíveis hoje, como por exemplo o Behance, o Bandcamp ou o Wattpad, oferecem espaço para portfólio ou publicação, mas não funcionam efetivamente como redes sociais voltadas à interação e ao crescimento orgânico desses criadores. Com isso, talentos promissores acabam limitados a estruturas pouco colaborativas e a redes genéricas e superlotadas, onde é difícil se destacar.
+- **Justificativa**: A proposta surge da necessidade observada de um espaço digital que vá além da simples exposição de obras, oferecendo organização, acessibilidade e interação entre artistas e público. Muitas plataformas existentes não integram esses elementos de forma eficiente, o que dificulta o crescimento de criadores independentes. Além disso, o desenvolvimento deste sistema integra o portfólio de projeto do curso de Engenharia de Software da Católica SC, em Joinville, justificando sua relevância acadêmica e prática ao propor uma solução real para um problema identificado no cenário artístico atual.
 - **Objetivos**:
   - Criar um sistema web que permita a publicação, categorização e gerenciamento de obras de arte por artistas independentes.
+- **Objetivos Secundários**:
   - Permitir que usuários (artistas e apreciadores) interajam com as publicações por meio de curtidas, comentários e recomendações.
   - Desenvolver uma interface responsiva, intuitiva e agradável para diferentes dispositivos e perfis de usuários.
   - Implementar um sistema seguro, confiável e escalável para o armazenamento e acesso aos dados das obras e interações.
 
 ## 2. Descrição do Projeto
 
-- **Tema do Projeto**: Desenvolvimento de uma plataforma online para artistas independentes publicarem e organizarem suas obras por categorias. O sistema funcionará como uma vitrine digital, permitindo que o público explore as artes e interaja com os artistas por meio de curtidas, comentários e seguidores. A proposta é valorizar a arte independente e facilitar sua divulgação.
+- **Tema do Projeto**: Um sistema que funcionará como uma vitrine digital e, ao mesmo tempo, como rede social, permitindo que o público explore as artes e interaja com os artistas por meio de curtidas, comentários e seguidores. A proposta é valorizar a arte independente e facilitar sua divulgação.
 - **Problemas a Resolver**:
-  - Dificuldade de artistas independentes em obter visibilidade.
-  - Falta de plataformas dedicadas à exposição de arte com boa categorização.
-  - Ausência de um sistema de interação entre apreciadores e artistas.
+  - Dificuldade de artistas independentes em divulgar suas obras e obter visibilidade.
+  - Baixa oferta de plataformas dedicadas à exposição de arte com boa categorização.
+  - Pouca interação entre apreciadores e artistas.
 - **Limitações**:
   - O sistema não realizará venda direta de artes.
   - Não haverá integração inicial com redes sociais externas.
@@ -46,11 +47,11 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
   - RF007: O sistema deve permitir a busca avançada por artistas (nome, estilo, categoria).
   
 - **Requisitos Não Funcionais (RNF):**
-  - RNF001 (Usabilidade/Design): A interface deve ser responsiva para diferentes dispositivos.
-  - RNF002 (Segurança): A autenticação do usuário deve ser feita via JWT (JSON Web Token).
-  - RNF003 (Desempenho/Armazenamento): O sistema deve ter armazenamento otimizado de imagens para acesso rápido e eficiente.
-  - RNF004 (Escalabilidade): O sistema deve ser escalável para suportar o crescimento da base de usuários.
-  - RNF005 (Desempenho): O sistema deve ter tempo de resposta ágil para todas as requisições.
+  - RNF001: A interface deve ser responsiva para diferentes dispositivos.
+  - RNF002: A autenticação do usuário deve ser feita via JWT (JSON Web Token).
+  - RNF003: O sistema deve ter armazenamento otimizado de imagens para acesso rápido e eficiente.
+  - RNF004: O sistema deve ser escalável para suportar o crescimento da base de usuários.
+  - RNF005: O sistema deve ter tempo de resposta ágil para todas as requisições.
 
 ### 3.2. Considerações de Design
 
@@ -82,6 +83,7 @@ O presente documento descreve o desenvolvimento de um sistema voltado para artis
   - Banco de Dados: SQL Server.
   - Versionamento: Git/GitHub.
   - Gerenciamento: Trello ou Jira.
+  - Algoritmo de IA para recomendação de posts baseado nas interações do usuário.
 
 ### 3.4. Considerações de Segurança
 
