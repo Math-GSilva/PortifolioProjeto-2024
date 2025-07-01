@@ -64,12 +64,10 @@ Desenvolvimento de um sistema voltado para artistas independentes, permitindo a 
 
 - **Diagrama de Componentes**:
   
-![Diagrama de Componentes](imgs/componentsDiagram.png)
+![Diagrama de Componentes](imgs/components.png)
 - **Casos de Uso**:
   
-![Casos de Uso](imgs/artista.png)
-![Casos de Uso](imgs/apreciador.png)
-![Casos de Uso](imgs/moderador.png)
+![Casos de Uso](imgs/useCases.png)
   
 ### 3.3. Stack Tecnológica
 
